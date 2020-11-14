@@ -7,6 +7,4 @@ public class ServiceAImpl {
     public void doA() {
         serviceB.doB();
     }
-    public void doD() {
-    }
 }
