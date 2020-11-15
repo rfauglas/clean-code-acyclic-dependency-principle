@@ -1,9 +1,9 @@
 package package_c;
 
-import package_d.ServiceDImpl;
+import package_d.ServiceD;
 
 public class ServiceCImpl {
-    ServiceDImpl serviceD;
+    ServiceD serviceD;
 
     public void doC() {
         serviceD.doD();
