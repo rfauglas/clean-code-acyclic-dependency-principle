@@ -8,4 +8,8 @@ public class ServiceCImpl {
     public void doC() {
         serviceD.doD();
     }
+
+    public void doC_2() {
+    }
+
 }
