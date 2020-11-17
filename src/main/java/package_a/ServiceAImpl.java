@@ -1,9 +1,9 @@
 package package_a;
 
-import package_b.ServiceBImpl;
+import package_b.ServiceB;
 
 public class ServiceAImpl {
-    ServiceBImpl serviceB;
+    ServiceB serviceB;
     public void doA() {
         serviceB.doB();
     }
