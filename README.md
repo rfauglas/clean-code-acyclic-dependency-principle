@@ -39,5 +39,13 @@
 1. Perform previous refactoring to get optimal metrics on all concerned packkages
    1. Check the metrics, doest it make sense to you? Then click on "Create a Snapshot", save as "snapshot7" and compare with previous snapshot
   
-  
-  
+
+Step|What
+---|---
+0|init
+1|removed cyclic dependecy
+2|introduced internal service in package B
+3|an additional Service call between package B and C
+4|additional ServiceC2 and a call betweeen ServiceB2 and ServiceC2
+5|introduce interface for Service D
+6|introduced abstractions for package_b and package_c                                                                                                                                                     
