@@ -14,8 +14,8 @@
    1. Click on Analyze => Calculate Metrics, Select "Martin packaging metrics" in Metrics Profile, Then click on "Ok"
    1. Check the metrics make sense to you... Then click on "Create a Snapshot", save as "snapshot1"
 1. Insert an Internal Service wichin package B
-   1. Create a ServiceB2 in package B, with a doB2 service method
-   1. Create a doB_2() method in ServiceB that calls ServiceB2 
+   1. Create a ServiceB2Impl in package B, with a doB2 service method
+   1. Create a doB_2() method in ServiceBImpl that calls ServiceB2Impl 
    1. Check the metrics, doest it make sense to you? Then click on "Create a Snapshot", save as "snapshot2" and compare with previous snapshot:  does it make sense? is it important?
 1. Insert an additional Service call between package B and C
    1. create an emmpty doC_2() in ServiceC
