@@ -30,7 +30,7 @@
 1. Introduce Interface for ServiceD
    1. Click on ServiceDImpl, then type Shift+F6 (Right Click -> Refactor Rename) type ServiceD, then click on Refactor
    1. Click on ServiceD, then Right click on Refactor-> Extract Interface
-   1. Change interface name frm ServiceC2Impl to ServiceD, select toggle "Rename original class and use interface where possible"
+   1. select toggle "Rename original class and use interface where possible", Change implementation name to ServiceDImpl, 
    1. Check the metrics, doest it make sense to you? Then click on "Create a Snapshot", save as "snapshot5" and compare with previous snapshot
    1. Create package package_d.impl
    1. Move ServiceDImpl to pavckage_d.impl
